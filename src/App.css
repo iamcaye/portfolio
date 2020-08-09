@@ -1,3 +1,7 @@
+body {
+  background-color: #c8d6e5;
+}
+
 .Header {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -9,8 +13,69 @@
   margin-right: 5%;
 }
 
-.nav {
-  display : flex;
+.nav-title {
+  font-size: large;
+  font-weight: bold;
+  flex : 7;
+  font-family: 'Recursive';
+  color : #c8d6e5;
 }
-.NavItem {
+
+.nav-main {
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222f3e; 
+  padding : 0 3%;
+}
+
+.nav-link {
+  flex : 1;
+  font-family: 'Recursive';
+  text-align: center;
+  text-decoration: none;
+  color: #feca57;
+}
+
+.nav-link:hover{
+  border-bottom: solid #feca57;
+  padding : 3px 0;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.block {
+  padding : 3px;
+  border-radius : 8px;
+  background-color: #576574;
+  padding : 15px 10px;
+  color: white;
+  margin : 0;
+  margin-right: 10px;
+  font-family : 'Recursive';
+  font-weight : lighter;
+  font-size : 30px;
+}
+
+.block-title {
+ color :  #222f3e;
+ font-weight: bolder;
+ font-family : 'Recursive';
+ margin-bottom : 0;
+}
+
+.quote {
+  text-align: center;
+  justify-content: space-evenly;
+  font-family : 'Recursive';
+  font-weight : light;
+  font-size : 30px;
+}
+
+.caye {
+  margin : 0;
 }

@@ -7,11 +7,12 @@ import {About} from './views/About';
 
 const Nav = () => {
   return (
-    <div>
-      <Link to='/'>Home</Link>
-      <Link to='about'>About</Link>
-      <Link to='contact'>Contact</Link>
-    </div>
+    <nav className='nav-main'>
+      <p className='nav-title'>Cayetano Biehler</p>
+      <Link className='nav-link'to='/'>Home</Link>
+      <Link className='nav-link'to='about'>About</Link>
+      <Link className='nav-link'to='contact'>Contact</Link>
+    </nav>
   );
 }
 
