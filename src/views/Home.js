@@ -7,7 +7,8 @@ export const Home = () => {
     <>
     <div className='container'>
       <img src={Caye} alt='caye' className='caye'/>
-      <p className='block'>If people are doubting how far you can go, go so far that you can't hear them anymore</p>
+      <p className='block'>I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it. (Bill Gates)</p>
+      <p></p>
     </div>
     <p className='quote'>
       Hi, i'm Cayetano and this is my portfolio.<br></br>Enjoy it!
