@@ -110,3 +110,8 @@ img {
   margin : 0;
 }
 
+.iglink {
+  text-decoration : none;
+  color : 'black';
+}
+
