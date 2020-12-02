@@ -2,7 +2,69 @@ import React from 'react';
 import '../App.css';
 import Caye from '../img/caye-pc.png'
 
+const GithubRepos = (repos) => {
+  if(repos !== undefined){
+    repos = repos['repos'];
+    return(
+      <table className='GithubTable'>
+      <caption className='GithubCaption'>My Github Repos</caption>
+      <thead></thead>
+      <tbody>
+          <tr className='GitHead'>
+            <th>
+              <p>Name</p>
+            </th>
+            <th>
+              <p>Description</p>
+            </th>
+            <th>
+              <p>Language</p>
+            </th>
+          </tr>
+        {repos.map((repo) =>
+          <tr key={repo.id} className='GithubTableRow'>
+            <th>
+              <a href={repo['html_url']} target='noopener'>{repo['name']}</a>
+            </th>
+            <th>
+              <p className='GitDesc'>{repo['description']}</p>
+            </th>
+            <th>
+              <p>{repo['language']}</p>
+            </th>
+          </tr>
+        )}
+      </tbody>
+      <tfoot></tfoot>
+      </table>
+    );
+  }
+}
+
 export const About = () => {
+  const [repos, setRepos] = React.useState([]);
+  
+  const getRepos = (signal) => {
+    let url = 'https://api.github.com/users/iamcaye/repos';
+    fetch(url, {signal : signal})
+      .then(response => response.json())
+      .then(response =>{
+        console.log(response);
+        setRepos(response);
+      })
+      .catch(err => console.error(err));
+  }
+
+  React.useEffect(() => {
+    const abortController = new AbortController();
+    const signal = abortController.signal;
+    getRepos(signal);
+    return function cleanup(){
+      abortController.abort();
+    }
+  
+  }, []);
+
   return (
     <>
     <div className='container'>
@@ -22,7 +84,7 @@ export const About = () => {
             <p>Advanced level on circuit analysis</p>
           </li>
           <li>
-            <p>Circuit design using protoboard, resistors, O.A, diodes... and working with Deeds, PSPICE</p>
+            <p>Circuit design using protoboard, resistors, O.A, diodes... and working with Deeds, PSPICE, ModelSim, ISE Xilinx</p>
           </li>
           <li>
             <p>Advanced knowledge on the MSP430G2ET microcontroller and its library</p>
@@ -46,6 +108,9 @@ export const About = () => {
           </li>
         </ul>
       </span>
+    </div>
+    <div className='container'>
+    <GithubRepos repos={repos}/>
     </div>
     </>
   );
