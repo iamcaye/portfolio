@@ -41,6 +41,24 @@ const GithubRepos = (repos) => {
   }
 }
 
+const GithubReposLite = (repos) => {
+  if(repos !== undefined){
+    repos = repos['repos'];
+    return(
+      <div>
+        <h2 className='GithubCaption'>My Github Repos</h2>
+        {repos.map((repo) =>
+          <div key={repo.id} className='gitContainer'>
+            <a href={repo.html_url} target='noopener'>{repo.name}</a>
+            <p>{repo.description}</p>
+            <p><b>Language:</b> {repo.language}</p>
+          </div>
+        )}
+      </div>
+    );
+  }
+}
+
 export const About = () => {
   const [repos, setRepos] = React.useState([]);
   
@@ -104,13 +122,14 @@ export const About = () => {
             <p>Self-taught Python programming</p>
           </li>
           <li>
-            <p>Self-taught Javascript porgramming, currently learning ReactJS for Wev Development</p>
+            <p>Self-taught Javascript porgramming, currently learning ReactJS for Web Development</p>
           </li>
         </ul>
       </span>
     </div>
     <div className='container'>
     <GithubRepos repos={repos}/>
+    <GithubReposLite repos={repos}/>
     </div>
     </>
   );

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.49a96687.chunk.css",
+    "main.js": "/static/js/main.ef99ef88.chunk.js",
+    "main.js.map": "/static/js/main.ef99ef88.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.43b00009.chunk.js": "/static/js/2.43b00009.chunk.js",
+    "static/js/2.43b00009.chunk.js.map": "/static/js/2.43b00009.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.52bf92cd5190c8b55c1b4cd96bf965c1.js": "/precache-manifest.52bf92cd5190c8b55c1b4cd96bf965c1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.49a96687.chunk.css.map": "/static/css/main.49a96687.chunk.css.map",
+    "static/js/2.43b00009.chunk.js.LICENSE.txt": "/static/js/2.43b00009.chunk.js.LICENSE.txt",
+    "static/media/caye-hi.png": "/static/media/caye-hi.b7b7076d.png",
+    "static/media/caye-pc.png": "/static/media/caye-pc.22373ede.png",
+    "static/media/caye.png": "/static/media/caye.364ac792.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.43b00009.chunk.js",
+    "static/css/main.49a96687.chunk.css",
+    "static/js/main.ef99ef88.chunk.js"
+  ]
+}

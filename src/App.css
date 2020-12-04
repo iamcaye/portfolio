@@ -29,7 +29,6 @@ img {
 }
 
 .nav-main {
-  /*width: 100%;*/
   margin : 0;
   box-shadow : 0px 3px #576574;
   display : flex;
@@ -52,6 +51,68 @@ img {
   padding : 3px 0;
 }
 
+.nav-link-last {
+  flex : 1;
+  font-family: 'Recursive';
+  text-align: center;
+  text-decoration: none;
+  color: #feca57;
+  margin-right: 5%;
+}
+
+.nav-link-last:hover{
+  border-bottom: solid #feca57;
+  padding : 3px 0;
+}
+
+.nav-main-lite {
+  background-color: #222f3e; 
+  display: flex;
+}
+
+.nav-main-lite p{
+  text-align : left;
+  font-size: large;
+  font-weight: bold;
+  flex : 7;
+  font-family: 'Recursive';
+  color : #c8d6e5;
+  margin-left: 10px;
+}
+
+.nav-main-lite Button {
+  background-color: #576574;
+  color: #feca57;
+  font-family: 'Recursive';
+  margin: 10px;
+}
+
+.nav-main-lite Drawer {
+  margin-top : 20px;
+  background-color: #222f3e; 
+
+}
+
+.first-nav-link-l {
+  flex : 1;
+  font-size : 20px;
+  font-family: 'Recursive';
+  text-align: center;
+  text-decoration: none;
+  color: #feca57;
+  margin: 10px 0;
+}
+
+.nav-link-l {
+  flex : 1;
+  font-size : 20px;
+  font-family: 'Recursive';
+  text-align: center;
+  text-decoration: none;
+  color: #feca57;
+  margin: 10px 0;
+}
+
 @media only screen and (min-width: 600px){
   .container {
     flex-flow : row;
@@ -60,6 +121,25 @@ img {
     align-items : center;
     justify-content : center;
     margin : 3%;
+  }
+
+  .nav-main-lite {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 600px){
+  .nav-main {
+    display: none;
+  }
+
+  .nav-link-last {
+    display: none;
+  }
+
+  .GithubTable {
+    display: none;
   }
 }
 
@@ -112,7 +192,7 @@ img {
 }
 
 .iglink {
-  color : 'black';
+  color : black;
   text-decoration : none;
 }
 
@@ -165,4 +245,16 @@ img {
 .GitHead {
   background-color: #222f3e; 
   color : #c8d6e5;
+}
+
+.gitContainer {
+  border: 5px solid #222f3e;
+  margin : 10px;
+}
+
+.gitContainer a{
+  margin-top : 10px;
+  font-weight : bold;
+  text-decoration: none;
+  color: black;
 }
