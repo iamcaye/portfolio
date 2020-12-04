@@ -45,7 +45,7 @@ const GithubReposLite = (repos) => {
   if(repos !== undefined){
     repos = repos['repos'];
     return(
-      <div>
+      <div className='gitLiteMain'>
         <h2 className='GithubCaption'>My Github Repos</h2>
         {repos.map((repo) =>
           <div key={repo.id} className='gitContainer'>
