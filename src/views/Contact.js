@@ -9,7 +9,7 @@ export const Contact = () => {
     <h1>Contact</h1>
     <a className='iglink' target='noopener' href='https://www.instagram.com/cayetanobiehler/'>Instagram : @cayetanobiehler</a>
     <p>Gmail : cayetano.biehler@gmail.com</p>
-    <a className='iglink' target='noopener' href='https://www.linkedin.com/in/cayetano-biehler-pollaci-0074091b0/'>LinkedIn</a>
+    <a className='iglink' target='noopener' href='https://www.linkedin.com/in/cayetano-biehler-pollaci-0074091b0/'>LinkedIn: Cayetano Biehler</a>
     </>
   );
 }

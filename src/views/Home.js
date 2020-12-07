@@ -11,7 +11,7 @@ export const Home = () => {
       <p></p>
     </div>
     <p className='quote'>
-      Hi, i'm Cayetano and this is my portfolio.<br></br>Enjoy it!
+      Hi, I'm Cayetano and this is my portfolio.<br></br>Enjoy it!
     </p>
     </>
   );

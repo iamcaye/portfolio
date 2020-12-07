@@ -200,6 +200,11 @@ img {
   text-decoration : none;
 }
 
+
+.iglink:hover {
+	border-bottom: 2px solid black;
+}
+
 .GithubTable {
   margin : 0;
   width: 75%;

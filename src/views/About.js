@@ -27,7 +27,7 @@ const GithubRepos = (repos) => {
               <a href={repo['html_url']} target='noopener'>{repo['name']}</a>
             </th>
             <th>
-              <p className='GitDesc'>{repo['description']}</p>
+              <p className='GitDesc'>{(repo['description'] == null ? "-- No description --" : repo['description'])}</p>
             </th>
             <th>
               <p>{repo['language']}</p>
@@ -50,7 +50,7 @@ const GithubReposLite = (repos) => {
         {repos.map((repo) =>
           <div key={repo.id} className='gitContainer'>
             <a href={repo.html_url} target='noopener'>{repo.name}</a>
-            <p>{repo.description}</p>
+            <p>{(repo['description'] == null ? "-- No description --" : repo['description'])}</p>
             <p><b>Language:</b> {repo.language}</p>
           </div>
         )}
@@ -88,7 +88,7 @@ export const About = () => {
     <div className='container'>
       <img src={Caye} alt='caye' className='caye'/>
       <span>
-        <h1>About</h1>
+        <h1>About me</h1>
         <p className='quote'>
           Currently studying Electronic Engineering (3rd year)<br></br> and self-taught software developer.
         </p>
