@@ -35,9 +35,9 @@ const NavLite = () => {
     <Button onClick={toggleDrawer(true)}>MENU</Button>
     <Drawer anchor={'top'} open={NavView} onClose={toggleDrawer(false)}>
       <p>Cayetano Biehler</p>
-      <Link className='first-nav-link-l'to='/'>Home</Link>
-      <Link className='nav-link-l'to='about'>About</Link>
-      <Link className='nav-link-l'to='contact'>Contact</Link>
+      <Link onClick={toggleDrawer(false)} className='first-nav-link-l'to='/'>Home</Link>
+      <Link onClick={toggleDrawer(false)} className='nav-link-l'to='about'>About</Link>
+      <Link onClick={toggleDrawer(false)} className='nav-link-l'to='contact'>Contact</Link>
     </Drawer>
     </div>
   );

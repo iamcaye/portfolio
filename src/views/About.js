@@ -67,7 +67,7 @@ export const About = () => {
     fetch(url, {signal : signal})
       .then(response => response.json())
       .then(response =>{
-        console.log(response);
+        //console.log(response);
         setRepos(response);
       })
       .catch(err => console.error(err));
