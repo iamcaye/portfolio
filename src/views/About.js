@@ -24,7 +24,7 @@ const GithubRepos = (repos) => {
         {repos.map((repo) =>
           <tr key={repo.id} className='GithubTableRow'>
             <th>
-              <a href={repo['html_url']} target='noopener'>{repo['name']}</a>
+              <a href={repo['html_url']} target='noopener'>{repo.name.toUpperCase()}</a>
             </th>
             <th>
               <p className='GitDesc'>{(repo['description'] == null ? "-- No description --" : repo['description'])}</p>
@@ -49,7 +49,7 @@ const GithubReposLite = (repos) => {
         <h2 className='GithubCaption'>My Github Repos</h2>
         {repos.map((repo) =>
           <div key={repo.id} className='gitContainer'>
-            <a href={repo.html_url} target='noopener'>{repo.name}</a>
+            <a href={repo.html_url} target='noopener'>{repo.name.toUpperCase()}</a>
             <p>{(repo['description'] == null ? "-- No description --" : repo['description'])}</p>
             <p><b>Language:</b> {repo.language}</p>
           </div>
