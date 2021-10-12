@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/cayetanobiehler.me/static/css/main.85ef27fa.chunk.css",
-    "main.js": "/cayetanobiehler.me/static/js/main.b37e4931.chunk.js",
-    "main.js.map": "/cayetanobiehler.me/static/js/main.b37e4931.chunk.js.map",
-    "runtime-main.js": "/cayetanobiehler.me/static/js/runtime-main.3271ff64.js",
-    "runtime-main.js.map": "/cayetanobiehler.me/static/js/runtime-main.3271ff64.js.map",
-    "static/js/2.4457c328.chunk.js": "/cayetanobiehler.me/static/js/2.4457c328.chunk.js",
-    "static/js/2.4457c328.chunk.js.map": "/cayetanobiehler.me/static/js/2.4457c328.chunk.js.map",
-    "index.html": "/cayetanobiehler.me/index.html",
-    "precache-manifest.55552db31ebb233b61759ff3d052d624.js": "/cayetanobiehler.me/precache-manifest.55552db31ebb233b61759ff3d052d624.js",
-    "service-worker.js": "/cayetanobiehler.me/service-worker.js",
-    "static/css/main.85ef27fa.chunk.css.map": "/cayetanobiehler.me/static/css/main.85ef27fa.chunk.css.map",
-    "static/js/2.4457c328.chunk.js.LICENSE.txt": "/cayetanobiehler.me/static/js/2.4457c328.chunk.js.LICENSE.txt",
-    "static/media/caye-hi.png": "/cayetanobiehler.me/static/media/caye-hi.b7b7076d.png",
-    "static/media/caye-pc.png": "/cayetanobiehler.me/static/media/caye-pc.22373ede.png",
-    "static/media/caye.png": "/cayetanobiehler.me/static/media/caye.364ac792.png"
+    "main.css": "/static/css/main.85ef27fa.chunk.css",
+    "main.js": "/static/js/main.44ae1fef.chunk.js",
+    "main.js.map": "/static/js/main.44ae1fef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.4457c328.chunk.js": "/static/js/2.4457c328.chunk.js",
+    "static/js/2.4457c328.chunk.js.map": "/static/js/2.4457c328.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.06aa6ea95520ae0a09335d1ebd6fff12.js": "/precache-manifest.06aa6ea95520ae0a09335d1ebd6fff12.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.85ef27fa.chunk.css.map": "/static/css/main.85ef27fa.chunk.css.map",
+    "static/js/2.4457c328.chunk.js.LICENSE.txt": "/static/js/2.4457c328.chunk.js.LICENSE.txt",
+    "static/media/caye-hi.png": "/static/media/caye-hi.b7b7076d.png",
+    "static/media/caye-pc.png": "/static/media/caye-pc.22373ede.png",
+    "static/media/caye.png": "/static/media/caye.364ac792.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3271ff64.js",
+    "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.4457c328.chunk.js",
     "static/css/main.85ef27fa.chunk.css",
-    "static/js/main.b37e4931.chunk.js"
+    "static/js/main.44ae1fef.chunk.js"
   ]
 }
