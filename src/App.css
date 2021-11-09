@@ -118,7 +118,7 @@ img {
     flex-flow : row;
     display : flex;
     text-align: center;
-    align-items : center;
+    #align-items : center;
     justify-content : center;
     margin : 3%;
   }
@@ -145,6 +145,15 @@ img {
   .GithubTable {
     display: none;
   }
+}
+
+.container {
+	border-bottom: 2px dashed #222f3e;
+	padding-bottom : 35px;
+}
+
+.container:last-child {
+  border : 0px;
 }
 
 .container ul li p {
@@ -213,7 +222,8 @@ img {
 }
 
 .GithubCaption {
-  margin-bottom : 20px;
+	padding-top : 10px;
+  margin : 10px 20px;
   text-align: center;
   font-weight: bold;
   font-size: 25px;
