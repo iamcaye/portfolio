@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6918a9d4.chunk.css",
-    "main.js": "/portfolio/static/js/main.aa7f0e3e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.aa7f0e3e.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.4457c328.chunk.js": "/portfolio/static/js/2.4457c328.chunk.js",
-    "static/js/2.4457c328.chunk.js.map": "/portfolio/static/js/2.4457c328.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.3afa30f72f62e0d8ea70771dcfcce77f.js": "/portfolio/precache-manifest.3afa30f72f62e0d8ea70771dcfcce77f.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.6918a9d4.chunk.css.map": "/portfolio/static/css/main.6918a9d4.chunk.css.map",
-    "static/js/2.4457c328.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4457c328.chunk.js.LICENSE.txt",
-    "static/media/caye-hi.png": "/portfolio/static/media/caye-hi.b7b7076d.png",
-    "static/media/caye-pc.png": "/portfolio/static/media/caye-pc.22373ede.png",
-    "static/media/caye.png": "/portfolio/static/media/caye.364ac792.png"
+    "main.css": "/cayetanobiehler.me/static/css/main.6472c5d3.chunk.css",
+    "main.js": "/cayetanobiehler.me/static/js/main.31ce9e77.chunk.js",
+    "main.js.map": "/cayetanobiehler.me/static/js/main.31ce9e77.chunk.js.map",
+    "runtime-main.js": "/cayetanobiehler.me/static/js/runtime-main.3271ff64.js",
+    "runtime-main.js.map": "/cayetanobiehler.me/static/js/runtime-main.3271ff64.js.map",
+    "static/js/2.4457c328.chunk.js": "/cayetanobiehler.me/static/js/2.4457c328.chunk.js",
+    "static/js/2.4457c328.chunk.js.map": "/cayetanobiehler.me/static/js/2.4457c328.chunk.js.map",
+    "index.html": "/cayetanobiehler.me/index.html",
+    "precache-manifest.82454815a1cb5530e4b4c7b5d3751b2c.js": "/cayetanobiehler.me/precache-manifest.82454815a1cb5530e4b4c7b5d3751b2c.js",
+    "service-worker.js": "/cayetanobiehler.me/service-worker.js",
+    "static/css/main.6472c5d3.chunk.css.map": "/cayetanobiehler.me/static/css/main.6472c5d3.chunk.css.map",
+    "static/js/2.4457c328.chunk.js.LICENSE.txt": "/cayetanobiehler.me/static/js/2.4457c328.chunk.js.LICENSE.txt",
+    "static/media/caye-hi.png": "/cayetanobiehler.me/static/media/caye-hi.b7b7076d.png",
+    "static/media/caye-pc.png": "/cayetanobiehler.me/static/media/caye-pc.22373ede.png",
+    "static/media/caye.png": "/cayetanobiehler.me/static/media/caye.364ac792.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.209c2d7e.js",
+    "static/js/runtime-main.3271ff64.js",
     "static/js/2.4457c328.chunk.js",
-    "static/css/main.6918a9d4.chunk.css",
-    "static/js/main.aa7f0e3e.chunk.js"
+    "static/css/main.6472c5d3.chunk.css",
+    "static/js/main.31ce9e77.chunk.js"
   ]
 }
