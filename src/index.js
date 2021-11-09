@@ -7,7 +7,10 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.hydrate(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter
+			basename={"/"}
+			hashType={"slash"}
+		>
       <App />
     </HashRouter>
   </React.StrictMode>,

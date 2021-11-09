@@ -123,6 +123,15 @@ img {
     margin : 3%;
   }
 
+  .container-home {
+    flex-flow : row;
+    display : flex;
+    text-align: center;
+    align-items : center;
+    justify-content : center;
+    margin : 3%;
+  }
+
   .nav-main-lite {
     display: none;
   }

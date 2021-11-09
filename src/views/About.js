@@ -90,7 +90,7 @@ export const About = () => {
       <span>
         <h1>About me</h1>
         <p className='quote'>
-          Currently studying Electronic Engineering (3rd year)<br></br> and self-taught software developer.
+          Currently studying Electronic Engineering (4rd year)<br></br> and self-taught software developer.
         </p>
       </span>
     </div>
