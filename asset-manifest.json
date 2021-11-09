@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/cayetanobiehler.me/static/css/main.6472c5d3.chunk.css",
-    "main.js": "/cayetanobiehler.me/static/js/main.31ce9e77.chunk.js",
-    "main.js.map": "/cayetanobiehler.me/static/js/main.31ce9e77.chunk.js.map",
-    "runtime-main.js": "/cayetanobiehler.me/static/js/runtime-main.3271ff64.js",
-    "runtime-main.js.map": "/cayetanobiehler.me/static/js/runtime-main.3271ff64.js.map",
-    "static/js/2.4457c328.chunk.js": "/cayetanobiehler.me/static/js/2.4457c328.chunk.js",
-    "static/js/2.4457c328.chunk.js.map": "/cayetanobiehler.me/static/js/2.4457c328.chunk.js.map",
-    "index.html": "/cayetanobiehler.me/index.html",
-    "precache-manifest.82454815a1cb5530e4b4c7b5d3751b2c.js": "/cayetanobiehler.me/precache-manifest.82454815a1cb5530e4b4c7b5d3751b2c.js",
-    "service-worker.js": "/cayetanobiehler.me/service-worker.js",
-    "static/css/main.6472c5d3.chunk.css.map": "/cayetanobiehler.me/static/css/main.6472c5d3.chunk.css.map",
-    "static/js/2.4457c328.chunk.js.LICENSE.txt": "/cayetanobiehler.me/static/js/2.4457c328.chunk.js.LICENSE.txt",
-    "static/media/caye-hi.png": "/cayetanobiehler.me/static/media/caye-hi.b7b7076d.png",
-    "static/media/caye-pc.png": "/cayetanobiehler.me/static/media/caye-pc.22373ede.png",
-    "static/media/caye.png": "/cayetanobiehler.me/static/media/caye.364ac792.png"
+    "main.css": "/iamcaye.github.io/portfolio/static/css/main.6472c5d3.chunk.css",
+    "main.js": "/iamcaye.github.io/portfolio/static/js/main.845fda91.chunk.js",
+    "main.js.map": "/iamcaye.github.io/portfolio/static/js/main.845fda91.chunk.js.map",
+    "runtime-main.js": "/iamcaye.github.io/portfolio/static/js/runtime-main.df225293.js",
+    "runtime-main.js.map": "/iamcaye.github.io/portfolio/static/js/runtime-main.df225293.js.map",
+    "static/js/2.4457c328.chunk.js": "/iamcaye.github.io/portfolio/static/js/2.4457c328.chunk.js",
+    "static/js/2.4457c328.chunk.js.map": "/iamcaye.github.io/portfolio/static/js/2.4457c328.chunk.js.map",
+    "index.html": "/iamcaye.github.io/portfolio/index.html",
+    "precache-manifest.f3ad9e49504b546a38be5a244a3d2c4f.js": "/iamcaye.github.io/portfolio/precache-manifest.f3ad9e49504b546a38be5a244a3d2c4f.js",
+    "service-worker.js": "/iamcaye.github.io/portfolio/service-worker.js",
+    "static/css/main.6472c5d3.chunk.css.map": "/iamcaye.github.io/portfolio/static/css/main.6472c5d3.chunk.css.map",
+    "static/js/2.4457c328.chunk.js.LICENSE.txt": "/iamcaye.github.io/portfolio/static/js/2.4457c328.chunk.js.LICENSE.txt",
+    "static/media/caye-hi.png": "/iamcaye.github.io/portfolio/static/media/caye-hi.b7b7076d.png",
+    "static/media/caye-pc.png": "/iamcaye.github.io/portfolio/static/media/caye-pc.22373ede.png",
+    "static/media/caye.png": "/iamcaye.github.io/portfolio/static/media/caye.364ac792.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3271ff64.js",
+    "static/js/runtime-main.df225293.js",
     "static/js/2.4457c328.chunk.js",
     "static/css/main.6472c5d3.chunk.css",
-    "static/js/main.31ce9e77.chunk.js"
+    "static/js/main.845fda91.chunk.js"
   ]
 }
