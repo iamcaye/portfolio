@@ -13,7 +13,8 @@ const Nav = () => {
       <p className='nav-title'>Cayetano Biehler</p>
       <Link className='nav-link' to='/'>Home</Link>
       <Link className='nav-link' to='about'>About</Link>
-      <Link className='nav-link-last' to='contact'>Contact</Link>
+      <Link className='nav-link' to='contact'>Contact</Link>
+      <a className='nav-link-last' href='https://iamcaye.github.io/blog/' target="noopener">Blog</a>
     </nav>
   );
 }
@@ -38,6 +39,7 @@ const NavLite = () => {
       <Link onClick={toggleDrawer(false)} className='first-nav-link-l' to='/'>Home</Link>
       <Link onClick={toggleDrawer(false)} className='nav-link-l' to='about'>About</Link>
       <Link onClick={toggleDrawer(false)} className='nav-link-l' to='contact'>Contact</Link>
+      <a onClick={toggleDrawer(false)} className='nav-link-l' target="noopener" href='https://iamcaye.github.io/blog/'>Blog</a>
     </Drawer>
     </div>
   );
