@@ -90,7 +90,7 @@ export const About = () => {
       <span>
         <h1>About me</h1>
         <p className='quote'>
-          Currently studying Electronic Engineering (4rd year)<br></br> and self-taught software developer.
+          Currently studying Electronic Engineering (4rd year) in Málaga<br></br> and self-taught software developer.
         </p>
       </span>
     </div>
@@ -99,10 +99,7 @@ export const About = () => {
         <h2>Electronics</h2>
         <ul>
           <li>
-            <p>Advanced level on circuit analysis</p>
-          </li>
-          <li>
-            <p>Circuit design using protoboard, resistors, O.A, diodes... and working with Deeds, PSPICE, ModelSim, ISE Xilinx</p>
+					<p>Advanced level on circuit analysis & design</p>
           </li>
           <li>
             <p>Advanced knowledge on the MSP430G2ET microcontroller and its library</p>
@@ -125,7 +122,7 @@ export const About = () => {
             <p>C++11 programming (OOP)</p>
           </li>
           <li>
-            <p>Self-taught Python programming</p>
+            <p>Self-taught Python programming (OOP, Django and a little bit of deep learning...)</p>
           </li>
           <li>
             <p>Self-taught Javascript porgramming, currently learning ReactJS for Web Development</p>

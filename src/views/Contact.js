@@ -7,6 +7,7 @@ export const Contact = () => {
     <div className='contactDiv'>
       <img src={Caye} alt='caye' className='caye'/>
       <h1>Contact</h1>
+      <a className='iglink' target='noopener' href='https://github.com/iamcaye'>Github : @iamcaye</a>
       <a className='iglink' target='noopener' href='https://www.instagram.com/cayetanobiehler/'>Instagram : @cayetanobiehler</a>
       <br/>
       <br/>
