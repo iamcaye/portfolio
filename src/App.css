@@ -158,7 +158,6 @@ img {
 
 .container {
 	border-bottom: 2px dashed #222f3e;
-	padding-bottom : 35px;
 }
 
 .container:last-child {
@@ -171,6 +170,7 @@ img {
 
 .container ul{
   flex : 1;
+	padding-bottom: 5%;
 }
 
 .container ul li {

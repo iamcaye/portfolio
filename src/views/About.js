@@ -102,7 +102,7 @@ export const About = () => {
 					<p>Advanced level on circuit analysis & design</p>
           </li>
           <li>
-            <p>Advanced knowledge on the MSP430G2ET microcontroller and its library</p>
+            <p>Advanced knowledge on the TIVA MSP430G2ET microcontroller and its library</p>
           </li>
           <li>
             <p>Advanced knowledge on the TIVA TM4C123G microcontroller and its library</p>
