@@ -2,53 +2,6 @@ import React from "react";
 import "../App.css";
 import Caye from "../img/caye-pc.png";
 
-
-const GithubRepos = (repos) => {
-  if (repos !== undefined) {
-    repos = repos["repos"];
-    console.log(repos);
-    return (
-      <table className="GithubTable">
-        <caption className="GithubCaption">My Github Repos</caption>
-        <thead></thead>
-        <tbody>
-          <tr className="GitHead">
-            <th>
-              <p>Name</p>
-            </th>
-            <th>
-              <p>Description</p>
-            </th>
-            <th>
-              <p>Language</p>
-            </th>
-          </tr>
-          {repos.map((repo) => (
-            <tr key={repo.id} className="GithubTableRow">
-              <th>
-                <a href={repo["html_url"]} target="noopener">
-                  {repo.name.toUpperCase()}
-                </a>
-              </th>
-              <th>
-                <p className="GitDesc">
-                  {repo["description"] == null
-                    ? "-- No description --"
-                    : repo["description"]}
-                </p>
-              </th>
-              <th>
-                <p>{repo["language"]}</p>
-              </th>
-            </tr>
-          ))}
-        </tbody>
-        <tfoot></tfoot>
-      </table>
-    );
-  }
-};
-
 const GithubReposLite = (repos) => {
   if (repos !== undefined) {
     repos = repos["repos"];
@@ -81,8 +34,12 @@ const getTableInfo = (res) => {
     let data = {
       id: repo["id"],
       name: repo["name"],
-      description: repo["description"],
+      description:
+        repo["description"] == null
+          ? "-- No description --"
+          : repo["description"],
       language: repo["language"],
+      html_url: repo["html_url"],
     };
     repos.push(data);
   }
@@ -110,6 +67,65 @@ export const About = () => {
       abortController.abort();
     };
   }, []);
+
+  const GithubRepos = (repos) => {
+    const sortTable = (field) => {
+      if (repos !== undefined) {
+        repos.sort((a, b) => {
+          const vA = a[field];
+          const vB = b[field];
+          if (vA != null && vB != null) {
+            vA.toLowerCase();
+            vB.toLowerCase();
+          }
+
+          if (vA < vB) return -1;
+          if (vA > vB) return 1;
+          return 0;
+        });
+        return repos;
+      }
+    };
+
+    if (repos !== undefined) {
+      repos = repos["repos"];
+      return (
+        <table className="GithubTable">
+          <caption className="GithubCaption">My Github Repos</caption>
+          <thead></thead>
+          <tbody>
+            <tr className="GitHead">
+              <th onClick={() => setRepos(sortTable("name"))}>
+                <p>Name</p>
+              </th>
+              <th onClick={() => setRepos(sortTable("description"))}>
+                <p>Description</p>
+              </th>
+              <th onClick={() => sortTable("language")}>
+                <p>Language</p>
+              </th>
+            </tr>
+            {repos.map((repo) => (
+              <tr key={repo.id} className="GithubTableRow">
+                <th>
+                  <a href={repo["html_url"]} target="noopener">
+                    {repo.name.toUpperCase()}
+                  </a>
+                </th>
+                <th>
+                  <p className="GitDesc">{repo["description"]}</p>
+                </th>
+                <th>
+                  <p>{repo["language"]}</p>
+                </th>
+              </tr>
+            ))}
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      );
+    }
+  };
 
   return (
     <>
@@ -175,7 +191,7 @@ export const About = () => {
         </span>
       </div>
       <div className="container">
-        <GithubRepos repos={repos} />
+        <GithubRepos repos={repos} setter={() => setRepos()} />
         <GithubReposLite repos={repos} />
       </div>
     </>
