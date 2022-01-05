@@ -9,7 +9,7 @@ import {About} from './views/About';
 
 const Nav = () => {
   return (
-    <nav className='nav-main'>
+    <nav className='nav-main' >
       <p className='nav-title'>Cayetano Biehler</p>
       <Link className='nav-link' to='/'>Home</Link>
       <Link className='nav-link' to='about'>About</Link>
