@@ -21,6 +21,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 13.x
+        
+    - name: Upgrade NPM
+      run: npm install -g npm
 
     - name: Install NPM packages
       run: npm ci
