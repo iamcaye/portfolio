@@ -11,7 +11,7 @@ const GithubReposLite = (repos) => {
         {repos.map((repo) => (
           <div key={repo.id} className="gitContainer">
             <a href={repo.html_url} target="noopener">
-              {repo["name"].toUpperCase()}
+              {repo["name"]}
             </a>
             <p>
               {repo["description"] == null
@@ -33,7 +33,7 @@ const getTableInfo = (res) => {
   for (const repo of res) {
     let data = {
       id: repo["id"],
-      name: repo["name"],
+      name: repo["name"].toUpperCase(),
       description:
         repo["description"] == null
           ? "-- No description --"
@@ -74,16 +74,14 @@ export const About = () => {
         repos.sort((a, b) => {
           const vA = a[field];
           const vB = b[field];
-          if (vA != null && vB != null) {
-            vA.toLowerCase();
-            vB.toLowerCase();
-          }
 
           if (vA < vB) return -1;
           if (vA > vB) return 1;
           return 0;
         });
-        return repos;
+				let result = [...repos];
+				console.log(result);
+				setRepos(result);
       }
     };
 
@@ -95,10 +93,10 @@ export const About = () => {
           <thead></thead>
           <tbody>
             <tr className="GitHead">
-              <th onClick={() => setRepos(sortTable("name"))}>
+              <th onClick={() => sortTable("name")}>
                 <p>Name</p>
               </th>
-              <th onClick={() => setRepos(sortTable("description"))}>
+              <th onClick={() => sortTable("description")}>
                 <p>Description</p>
               </th>
               <th onClick={() => sortTable("language")}>
@@ -161,6 +159,9 @@ export const About = () => {
             <li>
               <p>Medium level VHDL programming</p>
             </li>
+            <li>
+              <p>Basic level on Raspberry Pi 4</p>
+            </li>
           </ul>
         </span>
         <span>
@@ -183,15 +184,25 @@ export const About = () => {
             </li>
             <li>
               <p>
-                Self-taught Javascript porgramming, currently learning ReactJS
+                Self-taught Javascript porgramming, currently learning Angular
                 for Web Development
+              </p>
+            </li>
+            <li>
+              <p>
+								Self-taught ReactJS for frontend applications (this portfolio)
+              </p>
+            </li>
+            <li>
+              <p>
+								Basic level on MySQL databases
               </p>
             </li>
           </ul>
         </span>
       </div>
       <div className="container">
-        <GithubRepos repos={repos} setter={() => setRepos()} />
+        <GithubRepos repos={repos} />
         <GithubReposLite repos={repos} />
       </div>
     </>
