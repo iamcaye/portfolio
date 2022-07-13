@@ -135,6 +135,9 @@ export const About = () => {
             Currently studying Electronic Engineering (4rd year) in Málaga
             <br></br> and self-taught software developer.
           </p>
+          <p className="quote">
+						Also working at <a href='https://grupotopdigital.es/' className='top-link' target='_blank' rel='noopener noreferrer'>TopDigital</a>
+          </p>
         </span>
       </div>
       <div className="container">
@@ -162,6 +165,9 @@ export const About = () => {
             <li>
               <p>Basic level on Raspberry Pi 4</p>
             </li>
+            <li>
+              <p>Medium level on sensors characterization and integration with microcontroller-based systems</p>
+            </li>
           </ul>
         </span>
         <span>
@@ -184,18 +190,32 @@ export const About = () => {
             </li>
             <li>
               <p>
-                Self-taught Javascript porgramming, currently learning Angular
-                for Web Development
+                Self-taught Javascript porgramming (ReactJS, Angular 13 + PrimeNG Components)
               </p>
             </li>
             <li>
               <p>
-								Self-taught ReactJS for frontend applications (this portfolio)
+								Medium level on MySQL databases
               </p>
             </li>
             <li>
               <p>
-								Basic level on MySQL databases
+								Backend with .NET Core 6 & NET Framework
+              </p>
+            </li>
+            <li>
+              <p>
+								JWT Authentication and Role-Based Authorization
+              </p>
+            </li>
+            <li>
+              <p>
+								Redsys TPV Payment Gateway
+              </p>
+            </li>
+            <li>
+              <p>
+								Web Scraping with HTML Agility Pack & Selenium (also for process automation)
               </p>
             </li>
           </ul>
