@@ -166,7 +166,13 @@ export const About = () => {
               <p>Basic level on Raspberry Pi 4</p>
             </li>
             <li>
-              <p>Medium level on sensors characterization and integration with microcontroller-based systems</p>
+              <p>Advanced level on sensors characterization and integration with microcontroller-based systems</p>
+            </li>
+            <li>
+              <p> Advanced knowledge on the ESP32 microcontroller using Arduino (Bluetooth & WIFI)</p>
+            </li>
+            <li>
+              <p>Basic knbowledge on MODBUS, CANBUS and communication protocols</p>
             </li>
           </ul>
         </span>
@@ -195,12 +201,12 @@ export const About = () => {
             </li>
             <li>
               <p>
-								Medium level on MySQL databases
+								Advanced level on MySQL databases
               </p>
             </li>
             <li>
               <p>
-								Backend with .NET Core 6 & NET Framework
+								Backend with Node.js, .NET Core 6 & NET Framework
               </p>
             </li>
             <li>

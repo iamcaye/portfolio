@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "settings": {
+    "workbench.colorTheme": "One Dark Pro Darker"
+  },
+  "forwardPorts": [4000],
+  "remoteUser": "node",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "postCreateCommand": "npm install"
+}
