@@ -19,7 +19,6 @@ RUN apk update \
 && apk add git
 # && apk add tzdata
 
-ENV TZ=Europe/Madrid
 
 # # Setup non-root user. Use a separate RUN statement to add your own dependencies.
 # ARG USERNAME=vscode
